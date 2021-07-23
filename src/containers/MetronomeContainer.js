@@ -35,7 +35,6 @@ function MetronomeContainer() {
       }, convertTempoToInterval(tempo));
     } else {
       clickInterval = setInterval(() => {
-        console.log("beat: " + beatCounter, "timeSignature: " + timeSignature);
         if (beatCounter === 0) {
           ding();
         } else {
